@@ -2,7 +2,7 @@
 
 # Background
 
-While `rippled` can usually be installed updated using package managers such as `apt` and `yum`, there are certain situations where a drop in binary can be useful. For example, when `rippled` needs to be installed without compiling from sources on distributions that aren't supported by current mechanisms. 
+While `rippled` can usually be installed and updated using package managers such as `apt` and `yum`, there are certain situations where a drop in binary can be useful. For example, when `rippled` needs to be installed without compiling from sources on distributions that aren't supported by current mechanisms. 
 
 Another important reason is to maintain support for older distributions. For logistical reasons, it may not always be possible to update an operating system within a specific time period. Packages for such distributions are not available in the `apt` and `yum` repositories provided by Ripple. One such example is for Ubuntu 18.04. Although, this distribution is near EOL, there may be substantial portions of the network that are yet to upgrade to later versions.
 
