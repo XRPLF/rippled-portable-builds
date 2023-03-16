@@ -12,7 +12,7 @@ The portable binary provided in this repo has been tested to work on a multitude
 
 There will be two files for every release with the following schema
 1. rippled-portable-versionnumber (eg: rippled-portable-1.10.0) - the binary file
-2. rippled-portable-versionnumber.sig (eg: rippled-portable-1.10.0.gpg) - the detached GPG signature for the file. The GPG public key is also published in this repository
+2. rippled-portable-versionnumber.sig (eg: rippled-portable-1.10.0.sig) - the detached GPG signature for the file. The GPG public key is also published in this repository
 
 ## Installation
 
