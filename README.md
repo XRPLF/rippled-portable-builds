@@ -37,7 +37,7 @@ First download and import the Public key:
 
 2. Make the binary executable (`chmod +x rippled-portable-versionnumber`)
 3. Stop the currently running `rippled` daemon (`sudo systemctl stop rippled.service`)
-4. Delete/rename the existing binary in `/opt/rippled/bin/rippled` 
+4. Delete/rename the existing binary in `/opt/ripple/bin/rippled` 
 5. Create a symbolic link to the downloaded binary (`sudo ln -snf /path/to/downloaded/rippled-portable-versionnumber /opt/ripple/bin/rippled` ). Replace the path/name with actual links.
 6. Start the `rippled` daemon (`sudo systemctl start rippled`)
 
