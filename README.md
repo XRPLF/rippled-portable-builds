@@ -1,7 +1,7 @@
 # Portable Builds of the `rippled` server
 
-IMPORTANT:
-GPG Fingerprint: `6D70 4017 0DEA 4F69 DEF5  D569 B6F9 7CF2 1A96 2003`
+
+**GPG Fingerprint:** `6D70 4017 0DEA 4F69 DEF5  D569 B6F9 7CF2 1A96 2003`
 
 ## Background
 
