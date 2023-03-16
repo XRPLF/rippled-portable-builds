@@ -7,11 +7,11 @@
 
 While `rippled` can usually be installed and updated using package managers such as `apt` and `yum`, there are certain situations where a drop in binary can be useful. For example, when `rippled` needs to be installed without compiling from sources on distributions that aren't supported by current mechanisms. 
 
-Another important reason is to maintain support for older distributions. For logistical reasons, it may not always be possible to update an operating system within a specific time period. Packages for such distributions are not available in the `apt` and `yum` repositories provided by Ripple. One such example is for Ubuntu 18.04. Although this distribution is near EOL, there may be a substantial portion of the network that are yet to upgrade to later versions.
+Another important reason is to maintain support for older distributions (backports). For logistical reasons, it may not always be possible to update an operating system within a specific time period. Packages for such distributions are not available in the `apt` and `yum` repositories provided by Ripple. One such example is for Ubuntu 18.04. Although this distribution is near EOL, there may be a substantial portion of the network that are yet to upgrade to later versions.
 
 The Foundation is extremely conscious that **network size is crucial to the health of the XRPL** and has therefore taken steps to provide alternate installation methods to operators.
 
-The portable binary provided in this repo has been tested to work on a multitude of distributions (However, if you find your distribution has problems, please do open an issue here).
+The portable binary provided in this repo **has been tested to work on a multitude of distributions** (however, if you find your distribution has problems, please do open an issue here).
 
 There will be two files for every release with the following schema
 1. rippled-portable-versionnumber (eg: rippled-portable-1.10.0) - the binary file
@@ -19,7 +19,7 @@ There will be two files for every release with the following schema
 
 ## Installation
 
-Since this effort is mainly for existing installations of `rippled` that need to be updated, we will not cover fresh installations. Those should be done on up to date Operating Systems using usual methods.
+Since this effort is mainly for existing installations of `rippled` that need to be updated, we will not cover fresh installations. Those should be done on up to date Operating Systems using [usual methods](https://xrpl.org/install-rippled.html).
 
 1. Download the binary from this repository and verify the signature
 2. Make the binary executable (`chmod +x rippled-portable-versionnumber`)
@@ -30,4 +30,4 @@ Since this effort is mainly for existing installations of `rippled` that need to
 
 Check that `rippled` is running as expected with `rippled server_info`
 
-**Credits: An enormous Thank you to @RichardAH for his amazing work on this project!**
+**Credits: An enormous Thank you to [@RichardAH](https://github.com/richardah) for his amazing work on this project!**
