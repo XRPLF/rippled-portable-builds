@@ -21,7 +21,15 @@ There will be two files for every release with the following schema
 
 Since this effort is mainly for existing installations of `rippled` that need to be updated, we will not cover fresh installations. Those should be done on up to date Operating Systems using [usual methods](https://xrpl.org/install-rippled.html).
 
+First download and import the Public key:
+`wget https://raw.githubusercontent.com/XRPLF/rippled-portable-builds/main/xrplf-binary-packages-public.gpg`
+`gpg --import xrplf-binary-packages-public.gpg`
+
 1. Download the binary from this repository and verify the signature
+`wget https://github.com/XRPLF/rippled-portable-builds/raw/main/releases/rippled-portable-1.10.0` (change version number as required)
+`wget https://github.com/XRPLF/rippled-portable-builds/raw/main/releases/rippled-portable-1.10.0.sig` (change version number as required)
+`gpg --verify rippled-portable-1.10.0.sig rippled-portable-1.10.0` (change version number of both binary and signature as required)
+
 2. Make the binary executable (`chmod +x rippled-portable-versionnumber`)
 3. Stop the currently running `rippled` daemon (`sudo systemctl stop rippled.service`)
 4. Delete/rename the existing binary in `/opt/rippled/bin/rippled` 
