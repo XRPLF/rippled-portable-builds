@@ -5,7 +5,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/opt/ripple/bin/rippled --net --silent --conf /opt/rippled/etc/rippled.cfg
+ExecStart=/opt/ripple/bin/rippled --net --silent --conf /opt/ripple/etc/rippled.cfg
 Restart=on-failure
 User=rippled
 Group=rippled
