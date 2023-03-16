@@ -1,5 +1,8 @@
 # Portable Builds of the `rippled` server
 
+IMPORTANT:
+GPG Fingerprint: `6D70 4017 0DEA 4F69 DEF5  D569 B6F9 7CF2 1A96 2003`
+
 ## Background
 
 While `rippled` can usually be installed and updated using package managers such as `apt` and `yum`, there are certain situations where a drop in binary can be useful. For example, when `rippled` needs to be installed without compiling from sources on distributions that aren't supported by current mechanisms. 
