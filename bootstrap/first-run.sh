@@ -77,7 +77,7 @@ mkdir -p /etc/opt/ripple
 ln -s /opt/ripple/etc/rippled.cfg /etc/opt/ripple/rippled.cfg
 ln -s /opt/ripple/etc/validators.txt /etc/opt/ripple/validators.txt
 ln -s /opt/ripple/bin/rippled /usr/local/bin/rippled
-
+touch /opt/ripple/.portable
 chown -R rippled:rippled /opt/ripple
 chown -R rippled:rippled /var/lib/rippled
 chown -R rippled:rippled /var/log/rippled
