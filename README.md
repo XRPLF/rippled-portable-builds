@@ -30,4 +30,4 @@ Since this effort is mainly for existing installations of `rippled` that need to
 
 Check that `rippled` is running as expected with `rippled server_info`
 
-
+**Credits: An enormous Thank you to @RichardAH for his amazing work on this project!**
