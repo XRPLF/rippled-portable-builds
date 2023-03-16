@@ -1,6 +1,6 @@
-## Portable Builds of the `rippled` server
+# Portable Builds of the `rippled` server
 
-# Background
+## Background
 
 While `rippled` can usually be installed and updated using package managers such as `apt` and `yum`, there are certain situations where a drop in binary can be useful. For example, when `rippled` needs to be installed without compiling from sources on distributions that aren't supported by current mechanisms. 
 
@@ -14,7 +14,7 @@ There will be two files for every release with the following schema
 1. rippled-portable-versionnumber (eg: rippled-portable-1.10.0) - the binary file
 2. rippled-portable-versionnumber.sig (eg: rippled-portable-1.10.0.sig) - the detached GPG signature for the file. The GPG public key is also published in this repository
 
-# Installation
+## Installation
 
 Since this effort is mainly for existing installations of `rippled` that need to be updated, we will not cover fresh installations. Those should be done on up to date Operating Systems using usual methods.
 
