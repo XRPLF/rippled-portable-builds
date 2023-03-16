@@ -43,4 +43,6 @@ First download and import the Public key:
 
 Check that `rippled` is running as expected with `rippled server_info`
 
+For fresh systems, you can also run the [first-run.sh](https://github.com/XRPLF/rippled-portable-builds/tree/main/bootstrap) bash script.
+
 **Credits: An enormous Thank you to [@RichardAH](https://github.com/richardah) for his amazing work on this project!**
