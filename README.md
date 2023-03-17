@@ -35,6 +35,24 @@ First download and import the Public key:
 
 `gpg --verify rippled-portable-1.10.0.sig rippled-portable-1.10.0` (change version number of both binary and signature as required)
 
+This and only this part of the warning that is safe to ignore (should you see it):
+
+```
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+```
+Typically a successful verification will look like this:
+
+```
+gpg: Signature made Thu 16 Mar 2023 02:31:58 PM UTC
+gpg:                using RSA key 6D7040170DEA4F69DEF5D569B6F97CF21A962003
+gpg:                issuer "noreply+binary-packages@xrpl.org"
+gpg: Good signature from "XRPLF Binaries <noreply+binary-packages@xrpl.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6D70 4017 0DEA 4F69 DEF5  D569 B6F9 7CF2 1A96 2003
+```
+
 2. Make the binary executable (`chmod +x rippled-portable-versionnumber`)
 3. Stop the currently running `rippled` daemon (`sudo systemctl stop rippled.service`)
 4. Delete/rename the existing binary in `/opt/ripple/bin/rippled` 
