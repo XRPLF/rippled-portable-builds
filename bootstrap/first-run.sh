@@ -54,7 +54,7 @@ curl -sSL -o "$BASE_DIR/downloads/$latest_sig_file" "$repo_url/$latest_sig_file"
 
 # verify the signature of the file using the public GPG key
 echo "Verifying the signature of the file using the public GPG key..."
-if ! gpg --verify "$latest_sig_file" "$latest_file"; then
+if ! gpg --verify "$BASE_DIR/downloads/$latest_sig_file" "$BASE_DIR/downloads/$latest_file"; then
     echo "Signature verification failed, exiting..."
     rm -rf $BASE_DIR
     rm -rf /var/log/rippled
