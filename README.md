@@ -33,7 +33,7 @@ First download and import the Public key:
 
 `wget https://github.com/XRPLF/rippled-portable-builds/raw/main/releases/rippled-portable-1.11.0.sig` (change version number as required)
 
-`gpg --verify rippled-portable-1.10.0.sig rippled-portable-1.10.0` (change version number of both binary and signature as required)
+`gpg --verify rippled-portable-1.11.0.sig rippled-portable-1.11.0` (change version number of both binary and signature as required)
 
 This and only this part of the warning that is safe to ignore (should you see it):
 
