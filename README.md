@@ -14,8 +14,8 @@ The Foundation is extremely conscious that **network size is crucial to the heal
 The portable binary provided in this repo **has been tested to work on a multitude of distributions** (however, if you find your distribution has problems, please do open an issue here).
 
 There will be two files for every release with the following schema
-1. rippled-portable-versionnumber (eg: rippled-portable-1.11.0) - the binary file
-2. rippled-portable-versionnumber.sig (eg: rippled-portable-1.11.0.sig) - the detached GPG signature for the file. The GPG public key is also published in this repository
+1. rippled-portable-versionnumber (eg: rippled-portable-1.12.0) - the binary file
+2. rippled-portable-versionnumber.sig (eg: rippled-portable-1.12.0.sig) - the detached GPG signature for the file. The GPG public key is also published in this repository
 
 ## Installation
 
@@ -29,11 +29,11 @@ First download and import the Public key:
 
 1. Download the binary from this repository and verify the signature
 
-`wget https://github.com/XRPLF/rippled-portable-builds/raw/main/releases/rippled-portable-1.11.0` (change version number as required)
+`wget https://github.com/XRPLF/rippled-portable-builds/raw/main/releases/rippled-portable-1.12.0` (change version number as required)
 
-`wget https://github.com/XRPLF/rippled-portable-builds/raw/main/releases/rippled-portable-1.11.0.sig` (change version number as required)
+`wget https://github.com/XRPLF/rippled-portable-builds/raw/main/releases/rippled-portable-1.12.0.sig` (change version number as required)
 
-`gpg --verify rippled-portable-1.11.0.sig rippled-portable-1.11.0` (change version number of both binary and signature as required)
+`gpg --verify rippled-portable-1.12.0.sig rippled-portable-1.12.0` (change version number of both binary and signature as required)
 
 This and only this part of the warning that is safe to ignore (should you see it):
 
