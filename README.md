@@ -7,7 +7,7 @@
 
 While `rippled` can usually be installed and updated using package managers such as `apt` and `yum`, there are certain situations where a drop in binary can be useful. For example, when `rippled` needs to be installed without compiling from sources on distributions that aren't supported by current mechanisms. 
 
-Another important reason is to maintain support for older distributions (backports). For logistical reasons, it may not always be possible to update an operating system within a specific time period. Packages for such distributions are not available in the `apt` and `yum` repositories provided by Ripple. One such example is for Ubuntu 18.04. Although this distribution is near EOL, there may be a substantial portion of the network that are yet to upgrade to later versions.
+Another important reason is to maintain support for older distributions (backports). For logistical reasons, it may not always be possible to update an operating system within a specific time period. Packages for such distributions are not available in the `apt` and `yum` repositories provided by Ripple. One such example is for Ubuntu 18.04. Although this distribution is EOL, there may be a substantial portion of the network that are yet to upgrade to later versions. We do not recommend that operators run EOL and insecure systems. Additionally, this binary may help operators try `rippled` on a variety of *nix systems.
 
 The Foundation is extremely conscious that **network size is crucial to the health of the XRPL** and has therefore taken steps to provide alternate installation methods to operators.
 
